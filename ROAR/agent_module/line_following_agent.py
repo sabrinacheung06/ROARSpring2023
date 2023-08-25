@@ -14,7 +14,7 @@ class LineFollowingAgent(Agent):
         self.debug = True
         self.error_queue = deque(maxlen=10)
 
-        self.kP = 0.005
+        self.kP = 0.0045
         self.kD = 0
         self.kI = 0.0001
 
